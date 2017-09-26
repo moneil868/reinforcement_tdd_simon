@@ -8,17 +8,14 @@ class TestSimonSays < MiniTest::Test
   end
 
   def test_echo_bye
-    skip
     assert_equal "bye", echo("bye")
   end
 
   def test_shout_hello
-    skip
     assert_equal "HELLO", shout("hello")
   end
 
   def test_shout_multiple_words
-    skip
     assert_equal "HELLO WORLD", shout("hello world")
   end
 
