@@ -24,7 +24,6 @@ class TestSimonSays < MiniTest::Test
   end
 
   def test_start_of_word_returns_first_letter
-    skip
     assert_equal "h", start_of_word("hello", 1)
   end
 
