@@ -13,5 +13,5 @@ def repeat(string, count)
 end
 
 def start_of_word(word, count)
-  return word[count - 1]
+  return word[0..(count - 1)]
 end

@@ -28,7 +28,6 @@ class TestSimonSays < MiniTest::Test
   end
 
   def test_start_of_word_returns_first_two_letters
-    skip
     assert_equal "Bo", start_of_word("Bob", 2)
   end
 
