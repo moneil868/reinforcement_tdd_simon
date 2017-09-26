@@ -8,4 +8,6 @@ def shout(string)
 end
 
 def repeat(string, count)
+  response = [string] * count
+  return response.join(" ")
 end
