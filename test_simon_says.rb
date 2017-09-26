@@ -32,7 +32,6 @@ class TestSimonSays < MiniTest::Test
   end
 
   def test_first_word
-    skip
     assert_equal "Hello", first_word("Hello World")
   end
 

@@ -15,3 +15,8 @@ end
 def start_of_word(word, count)
   return word[0..(count - 1)]
 end
+
+def first_word(string)
+  first_word = string.split(' ').first
+  return first_word
+end
