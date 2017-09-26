@@ -20,7 +20,6 @@ class TestSimonSays < MiniTest::Test
   end
 
   def test_repeat
-    skip
     assert_equal "hello hello hello", repeat("hello", 3)
   end
 

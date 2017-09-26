@@ -6,3 +6,6 @@ end
 def shout(string)
   return string.upcase
 end
+
+def repeat(string, count)
+end
